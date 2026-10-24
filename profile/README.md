@@ -17,14 +17,16 @@ If not, do this instead: curl -fsSL https://opendocs.cc/install.sh | bash
 
 The npx installer may end with "PromptScript does not support global skill installation". That's a known installer bug that only affects PromptScript; the skill is still installed.
 
-After installing, read the agent quickstart at https://docs.opendocs.cc/getting-started/agent-quickstart.md and ask me what I'd like to publish
+Then sign me up (it's free): ask for my email, run opendocs login --email <my email>, and I'll paste the 6-digit code it sends me.
+
+After that, read the agent quickstart at https://docs.opendocs.cc/getting-started/agent-quickstart.md and ask me what I'd like to publish
 ```
 
 Or use the CLI yourself:
 
 ```bash
 npm install -g @opendocs.cc/cli
-opendocs login --email you@example.com    # emails you a 6-digit code
+opendocs login --email you@example.com    # sign up free: emails you a 6-digit code
 opendocs publish notes.md                  # prints the link
 opendocs export notes -f pdf               # branded PDF
 ```
