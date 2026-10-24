@@ -15,7 +15,9 @@ Install as a skill if I have npm: npx skills add https://opendocs.cc --skill ope
 
 If not, do this instead: curl -fsSL https://opendocs.cc/install.sh | bash
 
-After installing, review the docs at https://opendocs.cc/docs and ask me what I'd like to publish
+The npx installer may end with "PromptScript does not support global skill installation". That's a known installer bug that only affects PromptScript; the skill is still installed.
+
+After installing, read the agent quickstart at https://docs.opendocs.cc/getting-started/agent-quickstart.md and ask me what I'd like to publish
 ```
 
 Or use the CLI yourself:
