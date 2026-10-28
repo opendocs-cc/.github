@@ -4,6 +4,8 @@
 
 Claude Code, Codex, Cursor and every other coding agent write Markdown all day: specs, runbooks, reports, release notes. OpenDocs gives those files somewhere to go. One command turns a `.md` file into a permanent link, or into a PDF or DOCX in your workspace's colors, font and logo.
 
+OpenDocs is open source under the MIT license, and you can [host it yourself](https://github.com/opendocs-cc/opendocs/blob/main/SELF_HOSTING.md).
+
 ## Get started
 
 Paste this into your agent:
@@ -45,12 +47,16 @@ Free for up to 50 documents, no credit card.
 
 | Repository | What it is | License |
 | --- | --- | --- |
+| [opendocs](https://github.com/opendocs-cc/opendocs) | The web app, API and MCP server: everything behind opendocs.cc, ready to self-host | MIT |
+| [doc-converter](https://github.com/opendocs-cc/doc-converter) | Markdown to branded PDF and Word, used for exports | MIT |
 | [opendocs-cli](https://github.com/opendocs-cc/opendocs-cli) | The `opendocs` CLI and the agent skill (`SKILL.md`) | MIT |
+| [opendocs-extension](https://github.com/opendocs-cc/opendocs-extension) | Browser extension: publish ChatGPT, Claude and Gemini answers | MIT |
+| [skills](https://github.com/opendocs-cc/skills) | Agent skills and the Claude Code plugin | MIT |
 
-The hosted service (web app, API and document converter) is closed source.
+Everything is open source under the MIT license. To run your own instance, follow the [self-hosting guide](https://github.com/opendocs-cc/opendocs/blob/main/SELF_HOSTING.md): it's written so an AI agent such as Claude Code or Codex can do the setup for you. If you'd rather not, [opendocs.cc](https://opendocs.cc) runs it for you.
 
 ## Links
 
-[Website](https://opendocs.cc) · [Docs](https://docs.opendocs.cc) · [Pricing](https://opendocs.cc/pricing) · [X](https://x.com/opendocshq)
+[Website](https://opendocs.cc) · [Docs](https://docs.opendocs.cc) · [Pricing](https://opendocs.cc/pricing) · [Self-hosting](https://github.com/opendocs-cc/opendocs/blob/main/SELF_HOSTING.md) · [X](https://x.com/opendocshq) · [Buy me a coffee](https://ko-fi.com/patrekurm)
 
-Found a bug? Open an issue on [opendocs-cli](https://github.com/opendocs-cc/opendocs-cli/issues). Security reports go to hello@opendocs.cc.
+Found a bug or have an idea? Open an issue on [opendocs](https://github.com/opendocs-cc/opendocs/issues), or on the repository it's about. Pull requests are welcome. Security reports go privately to hello@opendocs.cc, never to a public issue.
